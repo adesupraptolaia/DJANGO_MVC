@@ -42,7 +42,7 @@ class Penjaga(models.Model):
 class Pengunjung(models.Model):
     nama = models.CharField(max_length=255)
     nomor_telepon = models.CharField(max_length=255)
-    hari_berkunjung = models.DateTimeField()
+    hari_berkunjung = models.DateField()
 
     def __str__(self):
         return "{}".format(self.nama)
