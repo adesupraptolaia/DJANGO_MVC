@@ -1,0 +1,69 @@
+/* header menu */
+
+.menuheader ul{
+    padding-right: 20px;
+}
+
+/* header logo */
+.header{
+    padding-top: 40px;
+    padding-bottom: 20px; 
+    background-color: #2ec6ce;
+}
+.header p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.header h1{
+    color : white;
+    font-size: 71px;
+}
+.gambaralpha img{
+    width: 100%;
+}
+
+/* menu */
+
+.isi{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.isi span{
+    float: right;
+}
+.gambarblog{
+    width: 100%;
+}
+.datadiri td{
+    margin-right: 30px;
+}
+.geser{
+    padding-left: 90px;
+}
+
+
+
+/* footer */
+
+.ourproduct{
+    background-color: #2ec6ce;
+    font-size: 25px;
+}
+.ourproduct p{
+    padding-top: 20px;
+}
+.contactperson{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.contactperson p{
+    padding-top: 15px;
+}
+
+.contactperson span{
+    color: blue;
+    padding: 10px 0px;
+}

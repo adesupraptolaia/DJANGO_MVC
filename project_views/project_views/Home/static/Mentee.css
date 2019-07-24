@@ -1,0 +1,66 @@
+/* header menu */
+
+.menuheader ul{
+    padding-right: 20px;
+}
+
+/* header */
+.header{
+    padding-top: 40px;
+    padding-bottom: 20px; 
+    background-color: #2ec6ce;
+}
+.header p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.header h1{
+    color : white;
+    font-size: 71px;
+}
+.gambaralpha img{
+    width: 100%;
+}
+
+/* isi */
+
+.isi{
+    padding: 40px 0px;
+}
+.isi img{
+    width: 100%;
+}
+.menumentee{
+    margin: 20px 0px;
+}
+
+/* What will you learn */
+
+.mapel td{
+    margin: 20px;
+}
+
+/* footer */
+
+.ourproduct{
+    background-color: #2ec6ce;
+    font-size: 25px;
+}
+.ourproduct p{
+    padding-top: 20px;
+}
+.contactperson{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.contactperson p{
+    padding-top: 15px;
+}
+
+.contactperson span{
+    color: blue;
+    padding: 10px 0px;
+}

@@ -1,0 +1,25 @@
+{% extends 'Mentor_base.html' %}
+
+{% block isi %}
+
+
+    <div class="container">
+            <h1> Input Mentor </h1>
+        <div class="row justify-content-cente">
+            <div class="col-8">
+                <table>
+                    <tr>
+                        <td>
+                            <form method="POST" class="inputmentor">
+                                    {% csrf_token %}
+                                    {{form.as_p}}
+                                    <button type="submit" class="save btn btn-default">Save</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+{% endblock isi %}

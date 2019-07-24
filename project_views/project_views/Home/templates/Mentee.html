@@ -1,0 +1,26 @@
+{% extends 'Mentee_base.html' %}
+
+
+{% block isi %}
+    
+    
+<!-- Menu -->
+<div style="text-align: center;">
+    <h2>Our Mentee </h2>
+</div>
+    <div class="container isi">
+        
+        {% for a in isi  %}
+        <div class="row justify-content-center menumentee">
+            <div class="col-3">
+                <img src="{{a.foto}}" alt="">
+            </div>
+            <div class="col-7 text-left">
+                <h3><strong>{{a.nama}}</strong></h3>
+                <h4>{{a.note}}</h4>
+            </div> 
+        </div>
+        {% endfor %}
+    </div>
+
+    {% endblock isi %}
